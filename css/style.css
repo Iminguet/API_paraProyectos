@@ -1,0 +1,44 @@
+:root {
+  background-color: cornsilk;
+}
+#contenedorPrincipal {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.ejercicios {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 1em;
+  width: 100%;
+  background-color: beige;
+}
+
+.apis,
+.colecciones_creacion,
+.herramientas {
+  width: 30vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1 {
+  color: rgb(116, 116, 109);
+}
+
+a {
+  font-size: larger;
+  padding: 0.5em;
+  color: rgb(116, 116, 109);
+}
+iframe {
+  padding: 1em;
+  border: none;
+}
